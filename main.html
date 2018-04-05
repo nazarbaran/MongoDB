@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="jquery.js"></script>
+	<script src="script.js"></script>
+	<script src="server.js"></script>
+	<script src="mongoose.js"></script>
+	<style>
+		input{
+			display: block;
+			margin-top: 10px;
+			margin-left: 400px;
+		}
+		form{
+			float: left;
+		}
+		#mastable{
+			float: right;
+			margin-right: 450px;
+			margin-top: 16px;
+		}
+		.td{
+			background-color: springgreen;
+			padding: 10px;
+		}
+		span{
+			margin-left: 400px;
+		}
+		.header{
+			background-color: gray;
+			padding: 5px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<span>Input Name</span>
+		<input type="text" id="Name">
+		<span>Input Age</span>
+		<input type="text" id="Age">
+		<span>Input Salary</span>
+		<input type="text" id="Salary">
+		<input type="button" value="Submit" id="Btn">
+	</form>
+	<div id="mastable"></div>
+</body>
+</html>
